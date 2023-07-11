@@ -142,4 +142,21 @@ line-height: 30px;
     color:  #474747;
 font-size: 30px;
 font-weight: 700;
+margin-bottom: 5px;
+}
+.resume-coloum{
+    margin: 0px 20px;
+}
+.resume-item-institute{
+    margin-top: 30px 10px;
+}
+.resume-item-institute .resume-item-description{
+    color: #474747;
+}
+.resume-container{
+    display: flex;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
