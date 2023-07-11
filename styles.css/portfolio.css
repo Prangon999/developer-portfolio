@@ -52,15 +52,16 @@ nav a {
 /* header related style */
 .header{
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 }
 .banner{
     padding:30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 .banner-content{
     max-width: 500px;
@@ -160,3 +161,31 @@ margin-bottom: 5px;
     text-align: center;
     margin-top: 50px;
 }
+/* footer-style */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color:  #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 131px;
+}
+.footer-coloum{
+    width: 50%;
+}
+.social-links ,a {
+    text-align: center;
+    margin: 25px;
+}
+.contact ,input[type="text"],.contact input[type="email"],textarea {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+}
+input{
+    margin-bottom: 30px;
+    padding: 20px 35px;
+    color: #757575;
+}
+
+
+
